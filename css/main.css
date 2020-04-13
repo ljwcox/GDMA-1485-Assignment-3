@@ -67,6 +67,17 @@
 
 /* -- FORMS -- */ 
 
+fieldset {
+	border: none;
+	padding: 0;
+	
+}
+
+label {
+	display: block;
+	
+}
+
 /* -- LISTS -- */ 
 
 /* -- MEDIA -- */ 
@@ -89,20 +100,83 @@
 /* -- HEADER -- */
 
 header section {
-	background-color: #1D3A82;
+	background-color: #1D3A82;	
 	
 }
 
+#envelope-icon {
+	float: left;
+	padding: 10px;
+
+}
+
+a ul {
+	text-decoration: none;
+}
+
+.envelope-icon .phone-icon {
+	color: #FFD742;
+
+}
+
+.yellow-button {
+	background-color: #FFD742;
+	color: #000;
+	text-align: center;
+	padding: 0px 20px;
+	
+}
 /*--------------------------------------------------------------
 7.0 -UTILITIES
 -------------------------------------------------------------- */
 
 /* -- ALIGNMENT -- */ 
+.col-1-4 {
+	margin: 10px 25px;
+	float: left;
+}
 
+.col-2-4 {
+	margin: 10px 25px;
+	float: left;
+}
+
+.col-3-4 {
+	margin: 10px 25px;
+	float: left;
+}
+
+.col-4-4 {
+	float: right;
+	margin: 10px 25px;
+}
+
+header ul {
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFD742;
+	list-style-type: none;
+}
+
+#social-icons {
+	float: right;
+}
 /* -- COLOR -- */ 
+
+.ylw-bkg {
+	background-color: #FFD742;
+}
 
 /*--Dark Blue #1D3A82--*/
 
-/*--Yellow #EFDB49--*/
+/*--Yellow #FFD742--*/
+
+/*--Overlay Blue #4248FF--*/
+
+/*--EXAMPLE CODE FOR FONT AWESOME--
+<i class="fas fa-camera"></i> <!-- this icon's 1) style prefix == fas and 2) icon name == camera -->
+<i class="fas fa-camera"></i> <!-- using an <i> element to reference the icon -->
+<span class="fas fa-camera"></span> <!-- using a <span> element to reference the icon -->--*/
 
 /* -- SIZE -- */ 

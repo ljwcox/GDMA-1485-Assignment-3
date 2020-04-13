@@ -5,7 +5,7 @@
 <title>Assignment 3</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
-
+	<script src="https://kit.fontawesome.com/b4ae8a135c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
@@ -16,23 +16,62 @@
 		<section>
 			<div class="wrapper">
 				<div class="row">
-					<form>
-						<p>Language Selector</p>
-							<label></label>
-							<input>
-					</form>
+					<div class="col-1-4">
+						<form>
+							<fieldset>
+								<span hidden><legend>Language Selector</legend></span>
+									<p><span hidden>Choose the language to view the website</span></p>
+										<select name="Language-Selector">
+											<option>Arabic </option>
+											<option>Atlantean</option>
+											<option>Cantonese</option>
+											<option>English</option>
+											<option>French</option>
+											<option>Klingon</option>
+											<option>Korean</option>
+											<option>Mandarin</option>
+											<option>Na'vi </option>
+											<option>Sindarin</option>
+											<option>Spanish</option>
+											<option>Swahili</option>
+											<option>Vietnamese</option>	
+										</select>
+							</fieldset>	
+						</form>
+					</div>
 					
-					<address>
-						<!--clickable email formatted link-->
-						<!--clickable phone formatted link-->
-					</address>
+				<div class="col-2-4">
+					<div class="envelope-icon">
+						<span style="font-size: 1.5em; color: #FFD742;"></span>
+						<i class="fas fa-envelope-square"></i>
+					</div>		
 					
 					<div>
-						<p><a href="#">Get a Quote</a></p>
-							<div>
-								<!--facebook icon-->
-								<!--twitter icon-->
-								<!--third social media icon-->
+						<p>email: <a href="mailto:info.consuloanlive@gmail.com">info.consuloanlive@gmail.com</a></p>
+					</div>					
+				</div>		
+					
+				<div  class="col-3-4">
+					<div class="phone-icon">
+						<span style="font-size: 1.5em; color: #FFD742;"></span>
+						<i class="fas fa-phone-square"></i>
+					</div>		
+					
+					<div>
+						<a href="tel:14025558818">402-555-8818</a>
+					</div>					
+				</div>		
+						
+	<!--RIGHT SIDE OF HEADER-->					
+					<div class="col-4-4">
+						<span class="yellow-button"><a href="#">Get a Quote</a></span>
+						
+							<div id="social-icons">
+								<ul>
+									<li><i class="fab fa-facebook-square"></i></li>
+									<li><i class="fab fa-twitter-square"></i></li>
+									<li><i class="fab fa-linkedin"></i></li>
+								</ul>	
 							</div>	
 					</div>
 				</div>
@@ -43,6 +82,9 @@
 		
 		<section><!--INTERNAL NAV-->
 			<div class="row">
+				
+				<i class="fas fa-cubes"></i>
+				
 				<h2>Consuloan</h2>
 				<div>
 					<ul>
