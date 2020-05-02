@@ -84,19 +84,16 @@ label {
 
 #bg-hero {
 	background-image: url("../img/hero.jpg");
-	background-color: linear-gradient(#1D3A82, #4248FF);
 	height: 500px;
 }
 
 #bg-consulting {
 	background-image: url("../img/consulting.jpg");
-	background-color: linear-gradient(#1D3A82, #4248FF);
 	height: 900px;
 }
 
 #vid-key-frame {
 	background-image: url("../img/video-key-frame.jpg");
-	background-color: linear-gradient(#1D3A82, #4248FF);
 	width: 500px;
 	height: 400px;
 }
@@ -110,7 +107,6 @@ label {
 
 #bg-call-back {
 	background-image: url("../img/call-back.jpg");
-	background-color: linear-gradient(#1D3A82, #4248FF);
 	height: 2000px;
 }
 
@@ -174,8 +170,6 @@ ul {
 
 li {
  	display: inline;
-	type-weight: 100;
-	type-size: 12px;
 }
 
 a {

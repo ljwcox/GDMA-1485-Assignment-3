@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--Assignment 2--*/
+
+/*--------------------------------------------------------------
+>>> CSS STANDARDS
+----------------------------------------------------------------
+1. Place in appropriate section
+2. Add new sections to the Table of Contents as needed
+3. Order properties consistently inside each declaration i.e. alphabetically or by function 
+4. Declaration selectors should each occupy a new line
+5. Enter one new line between rules
+6. Enter more than one new line between categories 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Settings: used with preprocessors and contain font, colors definitions, etc.
+2.0 - Tools: globally used mixins and functions. Use for preprocessor only.
+3.0 - Generic: reset and/or normalize styles, box-sizing definition, etc. 
+4.0 - Elements: styling for bare/generic HTML elements 
+        - Forms
+        - Lists
+        - Media
+        - Tables
+        - Typography: Headings, Paragraphs, Blockquotes, Anchors
+5.0 - Objects: class-based selectors which define undecorated design patterns, building blocks
+        - Framework
+6.0 - Components: specific designed components
+        - Buttons
+        - Header
+        - Navigation 
+7.0 - Utilities: utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class
+        - Alignment	    
+        - Color
+        - Size
+
+--------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+1.0 - SETTINGS
+--------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-string: border-box;
+	-o-box-string: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+/*------------------------------------------------------------
+3.0 - GENERIC
+-------------------------------------------------------------*/
+.wrapper {
+	width: 1170px;
+	margin:0 auto;	
+}
+
+.row {
+	overflow: auto;	
+}
+
+/*--------------------------------------------------------------
+4.0 - ELEMENTS 
+-------------------------------------------------------------- */
+
+/* -- FORMS -- */ 
+
+/* -- LISTS -- */ 
+
+/* -- MEDIA -- */ 
+
+/* -- TABLES -- */ 
+
+/* -- TYPOGRAPHY: Headings, Pragraphs, Blockquotes, Anchors-- */ 
+
+/*--font-family: 'Source Sans Pro', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+--*/
+
+/*--------------------------------------------------------------
+5.0 - Objects
+-------------------------------------------------------------- */
+
+/* -- FRAMEWORK -- */ 
+
+.col-1-2 {
+	width: 585px;
+	height: 100px;
+	padding: 0 10px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+/*--BUTTONS--*/
+
+/*--HEADER--*/
+
+body div div div {
+	padding: 30px;
+}
+
+/*--NAVIGATION--*/
+
+nav {
+	font: normal 300 16px/18px 'Source Sans Pro', sans-serif;
+	float: right;
+	text-align: right;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+  	display: inline;
+	margin: 0 10px;
+	padding: 10px;
+}
+
+li:last-child {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px;
+	border-radius: 50px;
+	border: #fffafa 1px  solid;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a:link {
+	color: #fff;
+	
+}
+
+li a:visited {
+	background-color: #fff;
+	color: #000;
+	
+}
+
+li a:last-child a:hover {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px;
+	border-radius: 50px;
+	color: #000;	
+}
+
+	
+/*----------------------------------------------------------------------------
+-------------------DRAWING A LINE IN THE SAND---------------------------------
+-----------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+6.0 - COMPONENTS
+-------------------------------------------------------------- */
+
+/* -- HEADER -- */
+
+#p-italic {
+	text-align: center;
+	text-transform: lowercase;
+	font:italic 400 24px/28px 'EB Garamond', serif;
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font:bold 700 110px/110px 'Source Sans Pro', sans-serif;
+	
+}
+
+h1 {
+	color: #fff;	
+}
+
+h2 {
+	font-family: 'EB Garamond', serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	color: #ccc;
+	text-align: center;
+}
+
+
+/* -- BUTTONS -- */ 
+
+#lrn-more {
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	-ms-border-radius: 50px;
+	border-radius: 50px;
+	border: #fff 1px  solid;
+	background-color: teal;
+	color: #fff;
+}
+
+#lrn-more {
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+#lrn-more {
+	font: 100 16px/18px 'Source Sans Pro', sans-serif;
+}
+
+
+/*-------------------------------------------------------------*/
+
+#bg-img-hero {
+	background: url("../img/hero.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 75px 0 150px;
+	margin-bottom: 30px;
+}
+
+#bg-img-hero {
+  background-color: #ccc;
+}
+
+#bg-img-about {
+	background: url("../img/about.jpeg")no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 75px 0 150px;
+	margin-bottom: 30px;
+}
+
+#bg-img-about {
+  background-color: #ccc;
+}
+
+#bg-img-action {
+	background: url("../img/take-action.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 750px 0 150px;
+	margin-bottom: 30px;
+}
+
+#bg-img-action {
+  background-color: #ccc;
+}
+
+/*header p {
+  text-transform: uppercase;
+}--*/
+
+blockquote, .descrip {
+	width: 960px;
+	font-family: 'EB Garamond', serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5em;
+	color: #000;
+	text-align: center;
+}
+
+.descrip {
+	width: 250px;
+}
+
+#author {
+	width: 960px;
+	font-family: 'EB Garamond', serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #000;
+	text-align: center;
+	
+}
+
+#signature {
+	color: #36b3ac;
+	
+}
+/* -- FOOTER -- */
+
+#bg-icon-teal {
+	background-color: #36b3ac;
+}
+
+#bg-blk {
+	background-color: #000;
+	color: #fff;
+}
+
+footer>ul {
+	
+	list-style-type: none;
+}
+
+/*anchor display inline-block*/
+
+footer>li, footer>li a {
+	
+	display: inline-block;
+}
+
+footer>ul span {
+	display: none;
+}
+
+footer>ul a {
+	width: 20px;
+	height: 20px; 
+}
+
+footer>li:first-child a {
+	background: url("../img/icon-fb-sprites.png")no-repeat 0 0;
+}
+
+footer>li:nth-child(2) a {
+	background: url("../img/icon-flkr-sprite.png")no-repeat 0 0;
+}
+
+footer>li:last-child a {
+	background: url("../img/icon-twtr-sprite.png")no-repeat 0 0;
+}
+
+footer>li a:hover {
+	background-position: 0 -20px;
+}
+
+/*--------------------------------------------------------------
+7.0 -UTILITIES
+-------------------------------------------------------------- */
+
+/* -- ALIGNMENT -- */ 
+
+/* -- COLOR -- */ 
+
+/* -- SIZE -- */ 
+
