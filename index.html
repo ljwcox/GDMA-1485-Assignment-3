@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <title>Assignment 3</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/b4ae8a135c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	
 </head>
 
 <body>
-	<header>
-		<section>
+		<section class="bg-blue">
 			<div class="wrapper">
 				<div class="row">
-					<div class="col-1-4">
-						<form>
+					<div class="col-1-2">
+						<form class="col-2-3">
 							<fieldset>
 								<span hidden><legend>Language Selector</legend></span>
 									<p><span hidden>Choose the language to view the website</span></p>
@@ -38,20 +38,15 @@
 										</select>
 							</fieldset>	
 						</form>
-					</div>
 					
-				<div class="col-2-4">
+				<div class="col-2-3">
 					<div class="envelope-icon">
 						<span style="font-size: 1.5em; color: #FFD742;"></span>
 						<i class="fas fa-envelope-square"></i>
+						<p>email: <a href="mailto:info.consuloanlive@gmail.com">info.consuloanlive@gmail.com</a></p>
 					</div>		
 					
-					<div>
-						<p>email: <a href="mailto:info.consuloanlive@gmail.com">info.consuloanlive@gmail.com</a></p>
-					</div>					
-				</div>		
-					
-				<div  class="col-3-4">
+				<div>
 					<div class="phone-icon">
 						<span style="font-size: 1.5em; color: #FFD742;"></span>
 						<i class="fas fa-phone-square"></i>
@@ -61,11 +56,14 @@
 						<a href="tel:14025558818">402-555-8818</a>
 					</div>					
 				</div>		
-						
+			</div>			
 	<!--RIGHT SIDE OF HEADER-->					
-					<div class="col-4-4">
-						<span class="yellow-button"><a href="#">Get a Quote</a></span>
+					<div class="col-1-2">
+						<div class="col-2-3">
+							<span class="yellow-button"><a href="#">Get a Quote</a></span>
+						</div>
 						
+						<div class="col-2-3">
 							<div id="social-icons">
 								<ul>
 									<li><i class="fab fa-facebook-square"></i></li>
@@ -73,20 +71,25 @@
 									<li><i class="fab fa-linkedin"></i></li>
 								</ul>	
 							</div>	
+						</div>
 					</div>
-				</div>
+			</div>
+			</div>
 			</div>
 		</section>
-	</header>
-	
 		
-		<section><!--INTERNAL NAV-->
+		<!--INTERNAL NAV-->
+		<div class="wrapper">
 			<div class="row">
+				<section class="col-1-3">
+				<div id="cube-icon">
+					<i class="fas fa-cubes"></i>
+				</div>
+				<header>
+					<h2>Consuloan</h2>
+				</header>	
 				
-				<i class="fas fa-cubes"></i>
-				
-				<h2>Consuloan</h2>
-				<div>
+				<div id="nav2">
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About Us</a></li>
@@ -99,26 +102,30 @@
 						<li><a href="#"><img src="img/" alt=""></a></li><!--image-->
 						<li><a href="#"><img src="img/" alt=""></a></li><!--image-->
 					</ul>	
-				</div>
-				
-			</div>
-		
-		</section>
-		
-		<section class="wrapper row"><!--ABOUT section-->
-			<div>
+				</div>	
+			</section>
+		</div>
+	</div>		
+			
+		<!--ABOUT section-->
+		<div id="bg-hero">
+			<div class="wrapper">
+				<div class="row">
+			<section>		
 				<header>
 					<h1>Have the power to let your business grow</h1>
 				</header>
-<!--haveing a hard time identifying the h1-->				
+				
 				<div>
 					<a href="#">Our company</a>
 				</div>
 				<div>
 					<a href="#">Our services</a>
 				</div>
-			</div>
-		</section>
+			</section>	
+		</div>
+	</div>	
+</div>			
 	
 	<section><!--INDUSTRY-->
 		<header>
@@ -147,23 +154,27 @@
 		</div>	
 	</section>
 	
-<!--in the assignment instructions, you said that we would need to discuss with you if we wanted
-to eliminate an element from the design. I am not sure if the drop shadow behind these information boxes
-is one of those items or not. If not, is there a place to source that element? Of maybe some use of a gradient?-->	
-	
-	<section><!--LEGACY-->
+	<!--LEGACY-->
+	<div id="bg-consulting">
 		<div class="wrapper">
-			<div>
-				<!--video window-->
-			</div>
+			<div class="row">
+		 	
+			<section>
+				<div id="vid-key-frame">
+					<!--video window-->
+				</div>
+				
 				<header>
 					<h2>30 years of successful business consulting</h2>
 				</header>
 				<p>Over the last 30 years we've been in the consulting business.</p>
 				<p></p>
 				<a href="#">Read more</a>
+		
+			</section>
 		</div>
-	</section>
+	</div>
+</div>		
 	
 	<section><!--HAPPY CLIENT-->
 		<img src="#" alt="#">
@@ -191,8 +202,12 @@ is one of those items or not. If not, is there a place to source that element? O
 		</div>
 	</section>
 	
-	<section><!--ADVICE-->
+	<!--ADVICE-->
+	
+	<div id="bg-call-back">
 		<div class="wrapper">
+			<div class="row">
+			<section>
 			<h2>We advise you, you call the right decision!</h2>
 			<p>We help entreprenuers get their act together, before they talk to investors.</p>
 			
@@ -219,9 +234,11 @@ is one of those items or not. If not, is there a place to source that element? O
 				<h5></h5>
 				<p></p>
 			</div>
-		
-		</div>
-	</section>
+		</section>
+		</div>	
+	</div>
+</div>		
+	
 	
 	<section><!--LATEST NEWS-->
 		<h2>Latest News</h2>
@@ -380,6 +397,8 @@ is one of those items or not. If not, is there a place to source that element? O
 			</div>
 		</div>
 	</footer>
+	
+	<script src="js/functions.js"></script>
 	
 </body>
 </html>
